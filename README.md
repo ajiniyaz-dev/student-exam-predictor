@@ -4,9 +4,17 @@ A machine learning application that predicts a student's exam score based on aca
 
 The project uses an **ElasticNet Regression** model with data preprocessing and hyperparameter tuning. A **Streamlit** web application provides a simple interface for entering student information and generating predictions.
 
+## Live Demo
+
+Try the application directly in your browser:
+
+**[Open Student Exam Predictor](https://student-exam-predictor-9dzrdgv6usw6cnqxb2pvkf.streamlit.app/)**
+
+No installation or setup is required to try the online version.
+
 ## Overview
 
-Student performance can be influenced by factors such as study time, attendance, previous scores, motivation, sleep time, access to resources, and family background.
+Student performance can be influenced by factors such as study time, attendance, previous scores, motivation, sleep, access to resources, and family background.
 
 This project uses these factors to train a regression model that estimates a student's expected exam score.
 
@@ -15,13 +23,13 @@ The repository contains both the model training pipeline and a ready-to-use Stre
 ## Features
 
 * Predict student exam scores
+* Interactive web-based interface
 * ElasticNet Regression model
 * Hyperparameter tuning with `GridSearchCV`
 * Numerical feature scaling
 * Categorical feature encoding
 * Missing-value handling
 * Pre-trained model included in the repository
-* Interactive Streamlit interface
 * Model evaluation using R², MAE, and RMSE
 
 ## Project Structure
@@ -177,7 +185,6 @@ Model performance may also vary when the model is applied to students or situati
 
 Some possible improvements include:
 
-* Comparing multiple regression models
 * Improving the Streamlit interface
 * Adding prediction intervals
 * Adding automated model retraining
@@ -187,5 +194,3 @@ Some possible improvements include:
 **Ajiniyaz Bazarbaev**
 
 GitHub: https://github.com/ajiniyaz-dev
-
-If you find the project useful, feel free to star the repository.
